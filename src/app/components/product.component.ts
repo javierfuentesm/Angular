@@ -1,4 +1,5 @@
 import {Component} from '@angular/core'
+import { Product} from '../product.model'
 @Component({
   selector:'app-product',
   templateUrl:'./product.component.html'
@@ -6,12 +7,12 @@ import {Component} from '@angular/core'
 
 export class  ProductComponent{
 
-product={
+product :Product={
   id : '1',
   title:'Camiseta',
   price:8000,
   description: 'bla bla'
-}
+};
 
 
 }
